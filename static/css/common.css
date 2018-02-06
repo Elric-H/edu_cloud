@@ -1,0 +1,287 @@
+p,
+span,
+div,
+strong,
+ul,
+li {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.fl {
+	float: left;
+}
+.mr12{
+	margin-right:12px;
+}
+.fr {
+	float: right;
+}
+
+.cfa {
+	color: #aaa;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt5 {
+	margin-top: 5px;
+}
+
+.w100 div.el-date-editor {
+	width: 100%;
+}
+
+.pd1015 {
+	padding: 10px 15px;
+}
+
+.ml15 {
+	margin-left: 15px;
+}
+
+.mt1510 {
+	margin: 15px 10px;
+}
+
+.pd0 {
+	padding: 0 !important;
+}
+
+.dllist {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.datetimerange_w100 {
+	width: 100% !important;
+}
+
+.content-tab .toolbar {
+	padding: 0 10px;
+}
+
+section.home-content-tab {
+	height: calc(100vh - 92px);
+}
+
+section.content-tab {
+	height: calc(100vh - 92px);
+	margin: 10px;
+	background-color: #fff;
+}
+
+section.content-tab .toolbar {
+	background-color: #fff;
+}
+
+div.avatar-uploader div.el-upload {
+	border: 1px dashed #d9d9d9;
+	border-radius: 6px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+	border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+	font-size: 28px;
+	color: #8c939d;
+	width: 146px;
+	height: 146px;
+	line-height: 146px;
+	text-align: center;
+}
+
+.avatar {
+	width: 146px;
+	height: 146px;
+	display: block;
+}
+
+
+/*个人中心样式*/
+
+div.ptext {
+	overflow: hidden;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+div.ptext .toptext {
+	margin-top: 9px;
+}
+
+div.ptext .toptext .num {
+	font-size: 40px;
+}
+
+div.ptext .btext .btext {
+	font-size: 12px;
+	color: #999;
+}
+
+.homeHeader {
+	height: 40px;
+	background: #fff;
+	line-height: 40px;
+	float: inherit;
+}
+
+.boxbaw {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.boderBottom {
+	border-bottom: 1px solid #ddd;
+}
+
+.bgFFF {
+	background-color: #fff;
+}
+
+.el-main {
+	width: 100%;
+}
+
+div.pson-my-kewu {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.psonheight {
+	height: calc(100vh - 245px);
+}
+
+.psonheight2 {
+	height: 300px;
+}
+
+.psonheight3 {
+	height:284px;
+}
+
+.psonheight4 {
+	height: 145px;
+}
+.psonheight5 {
+              height:685px;
+}
+.newslist {
+	height: calc(100% - 40px);
+}
+
+.w100 .el-date-editor.el-input,
+.w100 .el-date-editor.el-input__inner {
+	width: 100%;
+}
+
+.el-table .warning-row {
+	background: oldlace;
+}
+
+.el-table .success-row {
+	background: #fff;
+}
+
+.w100 .el-date-editor.el-input,
+.w100 .el-date-editor.el-input__inner {
+	width: 100%;
+}
+
+.el-input {
+	height: 32px;
+}
+
+.newslist li {
+	overflow: hidden;
+	line-height: 50px;
+	height: 50px;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	margin: 0 15px;
+}
+
+.newslist li span.fltext {
+	width: calc(100% - 80px);
+	;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.newslist li span.tpree {
+	position: absolute;
+	right: 0;
+}
+
+.tzblock {
+	height: 80px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+.tzblock span.fa {
+	float: left;
+	font-size: 40px;
+	color: #ecbe0b;
+	display: inline-block;
+	margin: 20px 18px 0 30px;
+}
+
+.tzblock div.textc {
+	position: absolute;
+	left: 82px;
+}
+
+.tzblock span.frLink {
+	position: absolute;
+	right: 10px;
+	color: #de830e;
+	top: 30px;
+	font-size: 16px;
+}
+    .quill-editor {
+  height: 250px;
+  }
+.ql-container{
+	height:180px !important;
+}
+.newsc .el-dialog__body{
+	overflow: auto;
+}
+.tdss{
+	font-size:19px;
+}
+/*meadit*/
+@media screen and (min-height:920px){
+	.psonheight5 {
+	    height: calc(100vh - 280px);
+	}
+	.psonheight3 {
+	   height: calc(100vh - 680px);
+	}
+}

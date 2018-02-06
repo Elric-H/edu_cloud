@@ -1,0 +1,36 @@
+.login-input>.el-input-group__prepend{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #ffffff;
+}
+.login-input>.el-input__inner{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ffffff;
+    border-left: none;
+}
+.content-header {
+    padding-top: 20px;
+    position: relative;
+    background-color: #fff !important;
+    border-bottom: 1px solid #d2d2d2;
+}
+.no-padding-content{
+    padding:10px 0px 0px 0px;
+}
+.el-collapse-item__header{
+    font-size: 18px;
+}
+.big-transfer>.el-transfer-panel{
+    width:300px;
+}
+.small-select>div>.el-input__inner{
+    height: 25px;
+}
+
+.table-height{
+    height: 48.8px;
+}
+.no-white-space> .cell{
+    white-space: nowrap;
+}

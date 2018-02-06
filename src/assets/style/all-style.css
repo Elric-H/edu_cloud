@@ -1,0 +1,83 @@
+/*清除浮动*/
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+/*左右浮动*/
+.pull-left{
+    display: inline-block;
+    float: left;
+}
+.pull-right{
+    display: inline-block;
+    float: right;
+}
+/*水平左右中对齐*/
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/*超出省略号*/
+.over-ell{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.search-header .el-range-input{
+    width: 90px;
+}
+
+.red{
+    color: orangered;
+}
+.normal{
+    color: inherit;
+}
+.no-scoll{
+    width: calc(100vw - 180px);
+    overflow-x: hidden;
+}
+/*
+.v-modal{
+    width: calc(100vw - 180px);
+}
+.el-dialog__wrapper{
+    width: calc(100vw - 180px);
+}*/
+
+/*滑动条样式*/
+/*chrome*/
+.scrollbar::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+}
+.scrollbar::-moz-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+}
+.scrollbar::-webkit-scrollbar-track{    /*定义滚动条的轨道，内阴影及圆角*/
+    background-color: #fff;
+}
+.scrollbar-show::-webkit-scrollbar-thumb{   /*定义滑块，内阴影及圆角*/
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+.scrollbar-hidden::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 3px;
+}
