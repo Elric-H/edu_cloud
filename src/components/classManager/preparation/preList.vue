@@ -13,22 +13,22 @@
             </el-form>
         </el-col>
         <!--列表-->
-        <el-table :data="classes" :max-height="maxHeight" highlight-current-row v-loading="listLoading" @selection-change="selsChange" style="width: 100%;">
-            <!--<el-table-column type="selection" width="55">
-            </el-table-column>-->
+        <el-table :data="classes" :max-height="maxHeight" highlight-current-row v-loading="listLoading" @selection-change="selsChange">
+            <el-table-column width="55">
+            </el-table-column>
             <el-table-column type="index" width="40">
             </el-table-column>
-            <el-table-column prop="subjectName" label="学科" align="center">
+            <el-table-column sortable prop="subjectName" label="学科" align="center">
             </el-table-column>
-            <el-table-column prop="classFullName" label="年级"  align="center">
+            <el-table-column sortable prop="classFullName" label="年级"  align="center">
             </el-table-column>
-            <el-table-column prop="classHour" label="课时"  align="center">
+            <el-table-column sortable prop="classHour" label="课时"  align="center">
             </el-table-column>
             <el-table-column prop="bookEdition" label="教材版本"  align="center">
             </el-table-column>
             <el-table-column prop="term" label="学年" :formatter="formatTerm"  align="center">
             </el-table-column>
-            <el-table-column prop="createTime" label="创建时间" :formatter="formatDate" align="center">
+            <el-table-column sortable prop="createTime" label="创建时间" :formatter="formatDate" align="center">
             </el-table-column>
             <el-table-column prop="user" label="创建人"  align="center">
             </el-table-column>

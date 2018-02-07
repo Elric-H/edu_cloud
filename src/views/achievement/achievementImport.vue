@@ -36,7 +36,7 @@
             <el-table-column prop="schoolRollNum" width="60" label="学籍号" align="center">
             </el-table-column>
 
-            <el-table-column prop="studentName" label="学生姓名" align="center">
+            <el-table-column sortable prop="studentName" label="学生姓名" align="center">
             </el-table-column>
             <el-table-column prop="classFullName" label="班级" align="center">
             </el-table-column>
@@ -53,25 +53,25 @@
                 </template>
             </el-table-column>
 
-            <el-table-column prop="shuxue" label="数学" align="center">
+            <el-table-column sortable prop="shuxue" label="数学" align="center">
             </el-table-column>
-            <el-table-column prop="yuwen" label="语文" align="center">
+            <el-table-column sortable prop="yuwen" label="语文" align="center">
             </el-table-column>
-            <el-table-column prop="yingyu" label="英语" align="center">
+            <el-table-column sortable prop="yingyu" label="英语" align="center">
             </el-table-column>
-            <el-table-column prop="huaxue" label="化学"  align="center">
+            <el-table-column sortable prop="huaxue" label="化学"  align="center">
             </el-table-column>
-            <el-table-column prop="wuli" label="物理"  align="center">
+            <el-table-column sortable prop="wuli" label="物理"  align="center">
             </el-table-column>
-            <el-table-column prop="shengwu" label="生物"  align="center">
+            <el-table-column sortable prop="shengwu" label="生物"  align="center">
             </el-table-column>
-            <el-table-column prop="dili" label="地理"  align="center">
+            <el-table-column sortable prop="dili" label="地理"  align="center">
             </el-table-column>
-            <el-table-column prop="lishi" label="历史"  align="center">
+            <el-table-column sortable prop="lishi" label="历史"  align="center">
             </el-table-column>
-            <el-table-column prop="zhengzhi" label="政治"  align="center">
+            <el-table-column sortable prop="zhengzhi" label="政治"  align="center">
             </el-table-column>
-            <el-table-column  label="总分" :formatter="totalScore"  align="center">
+            <el-table-column label="总分" :formatter="totalScore"  align="center">
             </el-table-column>
             <el-table-column label="评语"  align="center">
                 <template scope="scope">
